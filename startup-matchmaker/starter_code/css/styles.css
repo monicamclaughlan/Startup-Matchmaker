@@ -4,3 +4,206 @@
 
 /* BACKGROUND IMAGE URL */
 /* https://res.cloudinary.com/jkeohan/image/upload/v1607432403/coworking_nxwjrp.jpg */
+
+* {
+    box-sizing:border-box;
+  }
+  
+  body {
+    padding: 10px;
+  }
+  
+  img {
+    width:100%;
+  }
+  
+  
+  /* ADD YOU CSS BELOW  */
+  
+  .container header .wrapper {
+    border-bottom: 5px solid #f2ff00;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 65px;
+    padding: 5px 20px;
+    
+  }
+  
+  h1 a { 
+    width: 450px;
+    color:#f2ff00;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 0 20px 0 30px;
+    text-decoration: none;
+    font-family: 'Merriweather', serif;
+  }
+  
+  nav ul { 
+    display:flex;
+    justify-content: space-around;
+    width: 550px;
+    align-items: center;
+  }
+  
+  li a { 
+    text-decoration: none;
+    color: white;
+  }
+  
+  ul li:first-of-type, ul li:nth-of-type(2) { 
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+  }
+
+  ul li:nth-of-type(3), ul li:nth-of-type(4), ul li:nth-of-type(5) { 
+      font-family: 'Lato', sans-serif;   
+  }
+
+  p.tagline { 
+    font-size: 20px;
+    height: 60px;
+    background-color: #adadad;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    padding: 20px;
+    font-style: italic;
+  }
+
+  del { 
+    color: #878787;
+  }
+
+  ins { 
+      text-decoration-color: #f2ff00;
+  }
+
+  section.banner { 
+    background-image: url('https://res.cloudinary.com/jkeohan/image/upload/v1607432403/coworking_nxwjrp.jpg');
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+
+  }
+
+  section.banner div.wrapper { 
+    width: 400px;
+    height: 250px;
+    background-color: rgba(255,255,255, 0.7);
+    box-shadow: 0.5px 0.5px 4px 1px #383838;
+    margin-right: 40px;
+  }
+
+  div.blurb { 
+      margin: 40px 40px;
+      text-align: left;
+      font-family: 'Lato', sans-serif; 
+  }
+
+  div.blurb h2 { 
+      font-size: unset;
+      font-size: 20px;
+      font-weight: 600;
+      padding-bottom: 5px
+  }
+
+  div.blurb p { 
+      font-size: unset; 
+      font-size: 13px;
+      letter-spacing: 1.5px;
+      line-height: 1.5;
+      margin-bottom: 20px;
+  }
+   div.blurb a.button { 
+       text-decoration: none;
+       color: black;
+       font-family: 'Oswald', sans-serif;
+       text-transform: uppercase;
+       letter-spacing: none;
+       font-weight: 700;
+       background-color: #f2ff00;
+       box-shadow: 0.5px 3px 1px #A9A9A9;
+       border-radius: 5px;
+       padding: 10px 90px;
+   }
+
+   section.touts { 
+       display:flex;
+       border: 1px solid; 
+       justify-content: center;
+   }
+
+   section.touts section.tout { 
+     padding: 40px 20px;
+     max-width: 290px;
+     border-right: 2px solid rgba(169,169,169, 0.3);
+     margin: 10px 0 10px;
+     
+   }
+
+   section.tout header h3 { 
+     font-family: 'Merriweather', serif;
+     font-size: 20px;
+     padding-bottom: 5px;
+   }
+
+   section.tout p { 
+    font-family: 'Lato', sans-serif; 
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    padding-bottom: 30px;
+   }
+   
+   section.tout a.button { 
+    text-decoration: none;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: none;
+    font-weight: 700;
+    background-color: #adadad ;
+    box-shadow: 0.5px 3px 1px #A9A9A9;
+    border-radius: 5px;
+    padding: 5px 55px;
+   }
+
+  section.tout a.button-one { 
+    text-decoration: none;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: none;
+    font-weight: 700;
+    background-color: #adadad ;
+    box-shadow: 0.5px 3px 1px #A9A9A9;
+    border-radius: 5px;
+    padding: 5px 80px;
+}
+
+footer { 
+  background-color: black;
+  color: white;
+  height: 65px;
+  
+}
+
+footer div.wrapper { 
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  padding: 30px 0 10px;
+  margin-left: 50px;
+}
+  
+  
+  
+  
